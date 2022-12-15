@@ -7,3 +7,7 @@
   width: min(var(--max-width), 100% - (var(--h-padding) *2 ));
   margin-inline: auto;
 }
+
+h3 {
+  font-size: 18px;
+}
