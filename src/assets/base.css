@@ -1,5 +1,14 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
+  --clr-primary-60: hsl(230, 75%, 60%);
+
+  --clr-accent-0: hsl(0, 0%, 0%);
+  --clr-accent-20: hsl(0, 0%, 25%);
+  --clr-accent-90: hsl(0, 0%, 91%);
+  
+
+  
+
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
