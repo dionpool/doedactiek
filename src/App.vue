@@ -21,7 +21,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 
   <footer>
-    test
+    <div class="container">
+        test
+    </div>
   </footer>
 </template>
 
@@ -48,8 +50,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 footer {
   background-color: var(--clr-primary-60);
-  position: absolute;
-  bottom: 0;
+  color: var(--clr-accent-100);
+  position: relative;
   width: 100%;
 }
 </style>
