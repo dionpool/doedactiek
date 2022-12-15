@@ -48,8 +48,7 @@ header {
 footer {
   background-color: var(--clr-primary-60);
   color: var(--clr-accent-100);
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
 }
 </style>
