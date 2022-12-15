@@ -4,8 +4,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img class="logo" src="@/assets/images/Doedactiek-logo.png" alt="Doedactiek logo">
 
+    <div class="wrapper">
+      <nav class="primary-nav">
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/kerst">Kerst</RouterLink>
+        <RouterLink to="/oud-en-nieuw">Oud en nieuw</RouterLink>
+      </nav>
+    </div>
   </header>
 
   <RouterView />
@@ -19,14 +27,16 @@ import { RouterLink, RouterView } from 'vue-router'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  width: 100%;
 }
 
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  width: 160px;
 }
 
-nav {
+.primary-nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
