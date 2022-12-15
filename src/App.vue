@@ -19,7 +19,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 
   <footer>
-    test
+    <div class="container">
+        test
+    </div>
   </footer>
 </template>
 
@@ -43,26 +45,9 @@ header {
   margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
 footer {
   background-color: var(--clr-primary-60);
+  color: var(--clr-accent-100);
   position: absolute;
   bottom: 0;
   width: 100%;
