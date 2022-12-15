@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -18,6 +17,10 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+  <footer>
+    test
+  </footer>
 </template>
 
 <style scoped>
@@ -56,5 +59,12 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+footer {
+  background-color: var(--clr-primary-60);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 </style>
